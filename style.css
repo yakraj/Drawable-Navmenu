@@ -1,0 +1,75 @@
+body{
+  top:0;
+  margin: 0;
+  padding: 0;
+}
+.open{
+  position:fixed;  
+  z-index:2;
+  font-size: 2rem;
+}
+.Nocontainer{
+  top:0;
+  margin:0;
+  font-size:0px;
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+  transform: translateX(-100%);
+  transition: 0.3s ease-in-out;
+  
+}
+.container{
+  top:0;
+  margin:0;
+  position:fixed;
+  font-size:3rem;
+  z-index:3;
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+  transform: translateX(0);
+  transition: 0.3s ease-in-out;
+
+}
+.images{
+  top:0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  transition: 0.3s ease-in-out;
+}
+.mimages{
+  margin-left:15%;
+  top:0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  transition: 0.3s ease-in-out;
+}
+
+.first{
+  height:100vh;
+  width:100%;
+  background-image: url("https://cdn.pixabay.com/photo/2020/03/27/09/29/waterfall-4973028_960_720.jpg");
+  background-size:cover;
+}.second{
+  height:100vh;
+  width:100%;
+  background-image: url("https://cdn.pixabay.com/photo/2020/03/10/11/55/netherlands-4918747_960_720.jpg");
+  background-size:cover;
+}
+
+
